@@ -19,7 +19,7 @@ answers = ["It is certain", "It is decidedly so", "Without a doubt", "Yes defini
 
 @commands('8ball')
 @example('.8ball will it rain today?')
-def 8ball(bot,trigger):
+def eightball(bot,trigger):
 	query = trigger.group(2)
 	answer = random.choice(answers)
 	if not query:
